@@ -1,8 +1,8 @@
 #include "apue.h"
-#include "myerr.c"
+#include "myerr.h"
 #include <dirent.h>
 
-int log_to_err = 0;
+int log_to_stderr = 0;
 
 int main(int argc, char * argv[])
 {
